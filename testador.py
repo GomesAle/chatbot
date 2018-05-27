@@ -1,0 +1,1 @@
+# dada uma entrada ver se o resultado do processamento é o esperado comparando as entidades e a intenção do texto
