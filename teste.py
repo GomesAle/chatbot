@@ -1,10 +1,17 @@
-from gerenciador_banco import GerenciadorBanco
+from acao import Acao
 
-x = GerenciadorBanco()
-print(x.executar_sql("select * from evento where nome like '%%'")
- \
-                                            and descricao like '%%' \
-                                            and assunto like '%segurança%' \
-                                            and data like '%%' \
-                                            and hora like '%%' \
-                                            and local like '%%'", []))
+slots = {
+    "nome" : "",
+    "descricao" : "",
+    "assunto" : "",
+    "data" : "",
+    "hora" : "",
+    "local" : "",
+    "evento" : "",
+    "palestra" : "",
+    "palestrante" : ""
+}
+
+acao = Acao()
+x = acao.buscar_info_palestra(slots)
+print(x)
