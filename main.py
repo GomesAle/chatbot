@@ -19,9 +19,17 @@ gerenciador_banco = GerenciadorBanco()
 
 def buscar_info_palestra(slots):
     gerenciador_banco.executar_sql("select * from palestra")
+    resultado = ""
+    for registro in registros:
+            resultado +=  'Nome: ' + registro[1] + '\n' + 'Descrição: ' + registro[2] + '\n' + 'Assunto: ' + registro[3] + '\n' + 'Data: '+registro[4] + ' - ' + registro[6] + '\n\n'
+    return resultado, slots
 
 def buscar_info_palestrante(slots):
     gerenciador_banco.executar_sql("select * from palestrante")
+    resultado = ""
+    for registro in registros:
+            resultado +=  'Nome: ' + registro[1] + '\n' + 'Descrição: ' + registro[2] + '\n' + 'Assunto: ' + registro[3] + '\n\n'
+    return resultado, slots
 
 def buscar_info_evento(slots):
     resultado = ""
@@ -46,7 +54,7 @@ def buscar_info_evento(slots):
                                             ('%'+slots["hora"]+'%'),('%'+slots["local"]+'%')])
         for registro in registros:
             resultado = 'Nome: ' + registro[1] + '\n' + 'Descrição: ' + registro[2] + '\n' + 'Assunto: ' + registro[3] + '\n' + 'Data: '+registro[4] + ' - ' + registro[6] + '\n' + 'Local: ' + registro[5] + '\n\n'
-    return resultado
+    return resultado, slots
 
 def buscar_mais_info_evento(slots):
     registros = gerenciador_banco.executar_sql('''select * from evento where nome like ? 
@@ -58,19 +66,22 @@ def buscar_mais_info_evento(slots):
                                             ('%'+slots["descricao"]+'%'),('%'+slots["assunto"]+'%'),('%'+slots["data"]+'%'),
                                             ('%'+slots["hora"]+'%'),('%'+slots["local"]+'%')])
     slots['evento'] = registros[0][0]
+    return 'O que você quer saber?', slots
+
+def oferecer_ajuda(slots):
+    return "Como posso ajudar?", slots
 
 def responder(intencao, slots):
     if intencao == 'saudar':
-        return "Como posso ajudar?"
+        return oferecer_ajuda(slots)
     if intencao == 'pedir_info_evento':
         return buscar_info_evento(slots)
     if intencao == 'pedir_info_palestra':
-        print('Buscar palestra')
+        return buscar_info_palestra(slots)
     if intencao == 'pedir_info_palestrante':
-        print('Buscar palestrante')
+        return buscar_info_palestrante(slots)
     if intencao == 'pedir_mais_info_evento':
-        buscar_mais_info_evento(slots)
-        return ('O que você quer saber?')
+        return buscar_mais_info_evento(slots)
 
 def main():
     x = Config()
@@ -80,6 +91,18 @@ def main():
     interpreter = Interpreter.load(trained_model_directory )
 
     resultados = open('resultados.txt', 'a')
+
+    slots = {
+        "nome" : "",
+        "descricao" : "",
+        "assunto" : "",
+        "data" : "",
+        "hora" : "",
+        "local" : "",
+        "evento" : "",
+        "palestra" : "",
+        "palestrante" : ""
+    }
 
     entrada = input("Como posso ajudar?")
     while entrada != "SAIR":
@@ -91,9 +114,9 @@ def main():
         intencao = saida['intent']['name']
         
         for hash_entity in saida['entities']:
-            global slots
+            #global slots
             slots[hash_entity['entity']] = hash_entity['value']
-        resposta = responder(intencao, slots)
+        resposta, slots = responder(intencao, slots)
         print(resposta)
         entrada = input()
 
