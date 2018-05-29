@@ -3,6 +3,10 @@ from gerenciador_banco import GerenciadorBanco
 class Acao:
     def __init__(self):
         self.gerenciador_banco = GerenciadorBanco()
+    
+    def buscar_eventos(self, slots):
+        x = self.gerenciador_banco.executar_sql('select * from evento',[])
+        return str(x), slots
 
     def buscar_info_palestra(self, slots):
         params = []
@@ -45,15 +49,11 @@ class Acao:
         return resultado, slots
 
     def buscar_info_evento(self, slots):
+        print("buscar_info_evento")
         resultado = ""
-        registros = self.gerenciador_banco.executar_sql('''select * from evento where nome like ? 
-                                            and descricao like ?
-                                            and assunto like ?
-                                            and data like ?
-                                            and hora like ?
-                                            and local like ?''',[('%'+slots["nome"]+'%'),
-                                            ('%'+slots["descricao"]+'%'),('%'+slots["assunto"]+'%'),('%'+slots["data"]+'%'),
-                                            ('%'+slots["hora"]+'%'),('%'+slots["local"]+'%')])
+
+        #registros = self.gerenciador_banco.executar_sql('''select * from evento''', [])
+        registros = self.gerenciador_banco.executar_sql('''select * from evento where nome like ? and descricao like ? and assunto like ? and data like ? and hora like ? and local like ?''', [('%'+slots["nome"]+'%'), ('%'+slots["descricao"]+'%'), ('%'+slots["assunto"]+'%'), ('%'+slots["data"]+'%'), ('%'+slots["hora"]+'%'), ('%'+slots["local"]+'%')])
         for registro in registros:
             resultado += 'Nome: ' + registro[1] + '\n' + 'Descrição: ' + registro[2] + '\n' + 'Assunto: ' + registro[3] + '\n' + 'Data: '+registro[4] + ' - ' + registro[6] + '\n' + 'Local: ' + registro[5] + '\n\n'
         return resultado, slots

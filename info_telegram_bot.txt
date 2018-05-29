@@ -1,0 +1,3 @@
+nome: eventos_bot
+username: bot_evento_bot
+554527307:AAEXjHxubpImT6LCHRLP2D-CKZQP4eY_EOg
