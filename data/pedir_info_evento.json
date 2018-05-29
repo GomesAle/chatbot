@@ -1365,6 +1365,11 @@
         "entities": [
           {"start": 38, "end": 48, "value": "computação", "entity": "assunto"}
         ]
+      },
+      {
+        "text": "eu quero saber sobre os eventos",
+        "intent":"pedir_info_evento",
+        "entities":[]
       }
     ]
   }

@@ -3,15 +3,16 @@ from acao import Acao
 slots = {
     "nome" : "",
     "descricao" : "",
-    "assunto" : "",
+    "assunto" : "segurança",
     "data" : "",
     "hora" : "",
     "local" : "",
-    "evento" : "",
+    "evento" : "1",
     "palestra" : "",
     "palestrante" : ""
 }
 
 acao = Acao()
-x = acao.buscar_info_palestra(slots)
-print(x)
+resultado, slots = acao.buscar_mais_info_palestra(slots)
+print(resultado)
+print(slots)

@@ -1,0 +1,47 @@
+{
+    "intent": {
+      "name": "pedir_info_evento",
+      "confidence": 0.99409466319273
+    },
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "salvador",
+        "entity": "local",
+        "extractor": "ner_crf"
+      }
+    ],
+    "intent_ranking": [
+      {
+        "name": "pedir_info_evento",
+        "confidence": 0.99409466319273
+      },
+      {
+        "name": "pedir_info_palestrante",
+        "confidence": 0.0031316640223329
+      },
+      {
+        "name": "saudar",
+        "confidence": 0.001307684046846
+      },
+      {
+        "name": "pedir_mais_info_evento",
+        "confidence": 0.00055960714847546
+      },
+      {
+        "name": "pedir_info_palestra",
+        "confidence": 0.00048627026852175
+      },
+      {
+        "name": "pedir_mais_info_palestra",
+        "confidence": 0.00042011132109866
+      }
+    ],
+    "text": "quais são os eventos em salvador?"  }
+  
+
+
+
+
+  

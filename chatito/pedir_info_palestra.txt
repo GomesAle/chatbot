@@ -1,0 +1,126 @@
+
+%[pedir_info_evento]
+    quais são as palestras?
+    quais são as palestras em @[data] ?
+    quais são as palestras sobre @[assunto] ?
+    quais são as palestras de @[assunto] ?
+    quais são as palestras que falam de @[assunto] ?
+    quais são as palestras em @[local] ?
+    quais palestras vão acontecer em @[data] ?
+    em que palestras falam de @[assunto] ?
+    quais  as palestras em que se fala sobre @[assunto] ?
+@[assunto]
+    programacao
+    acessibilidade
+    banco de dados
+    inteligencia artificial
+    chatbot
+    devops
+    java
+    arquitetura
+    mineração de dados
+    engenharia
+    computação
+
+@[data#snips/datetime]
+    janeiro
+    fevereiro
+    março
+    abril
+    maio
+    junho
+    julho
+    agosto
+    setembro
+    outubro
+    novembro
+    dezembro
+    18/10/2018
+    quinta-feira
+    22/05/2019
+    28 de setembro de 2019
+@[local]
+    são paulo
+    rio de janeiro
+    salvador
+    brasília
+    fortaleza
+    belo horizonte
+    curitiba
+    manaus
+    recife
+    porto alegre
+    belém
+    goiânia
+    guarulhos
+    campinas
+    são gonçalo
+    são luís
+    maceió
+    duque de caxias
+    nova iguaçu
+    são bernardo do campo
+    teresina
+    natal
+    campo grande
+    osasco
+    joão pessoa
+    santo andré
+    jaboatão dos guararapes
+    contagem
+    uberlândia
+    são josé dos campos
+    feira de santana
+    sorocaba
+    ribeirão preto
+    cuiabá
+    aracaju
+    juiz de fora
+    londrina
+    joinville
+    ananindeua
+    belford roxo
+    aparecida de goiânia
+    niterói
+    são joão de meriti
+    campos dos goytacazes
+    santos
+    betim
+    são josé do rio preto
+    mauá
+    caxias do sul
+    vila velha
+    florianópolis
+    olinda
+    diadema
+    serra
+    carapicuíba
+    campina grande
+    porto velho
+    mogi das cruzes
+    piracicaba
+    cariacica
+    montes claros
+    bauru
+    macapá
+    jundiaí
+    pelotas
+    itaquaquecetuba
+    ribeirão das neves
+    canoas
+    maringá
+    anápolis
+    são vicente
+    franca
+    caucaia
+    vitória
+    foz do iguaçu
+    vitória da conquista
+    paulista
+    petrópolis
+    ponta grossa
+    guarujá
+    blumenau
+    rio branco
+
+

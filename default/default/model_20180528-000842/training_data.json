@@ -1,0 +1,5183 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "pedir_info_evento",
+        "entities": [],
+        "text": "quais são os eventos?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "janeiro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em janeiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "fevereiro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em fevereiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "março",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em março ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "abril",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em abril ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "maio",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em maio ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "junho",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em junho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "julho",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em julho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "agosto",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em agosto ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "setembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em setembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "outubro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em outubro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "novembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em novembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "dezembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em dezembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "18/10/2018",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em 18/10/2018 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "quinta-feira",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em quinta-feira ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "22/05/2019",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em 22/05/2019 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 46,
+            "value": "28 de setembro de 2019",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são os eventos em 28 de setembro de 2019 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 38,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 50,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 38,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 45,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos sobre computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 47,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 42,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos de computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 45,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 48,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 48,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 57,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 41,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 38,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 45,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 52,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 44,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 34,
+            "end": 44,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são os eventos que falam de computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "são paulo",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em são paulo ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "rio de janeiro",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em rio de janeiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "salvador",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em salvador ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "brasília",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em brasília ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "fortaleza",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em fortaleza ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "belo horizonte",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em belo horizonte ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "curitiba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em curitiba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "manaus",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em manaus ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "recife",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em recife ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "porto alegre",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em porto alegre ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "belém",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em belém ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "goiânia",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em goiânia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "guarulhos",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em guarulhos ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "campinas",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em campinas ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "são gonçalo",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em são gonçalo ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "são luís",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em são luís ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "maceió",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em maceió ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": "duque de caxias",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em duque de caxias ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "nova iguaçu",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em nova iguaçu ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 45,
+            "value": "são bernardo do campo",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em são bernardo do campo ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "teresina",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em teresina ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "natal",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em natal ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "campo grande",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em campo grande ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "osasco",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em osasco ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "joão pessoa",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em joão pessoa ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "santo andré",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em santo andré ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 47,
+            "value": "jaboatão dos guararapes",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em jaboatão dos guararapes ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "contagem",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em contagem ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "uberlândia",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em uberlândia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 43,
+            "value": "são josé dos campos",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em são josé dos campos ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 40,
+            "value": "feira de santana",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em feira de santana ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "sorocaba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em sorocaba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "ribeirão preto",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em ribeirão preto ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "cuiabá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em cuiabá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "aracaju",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em aracaju ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "juiz de fora",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em juiz de fora ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "londrina",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em londrina ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "joinville",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em joinville ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "ananindeua",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em ananindeua ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "belford roxo",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em belford roxo ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 44,
+            "value": "aparecida de goiânia",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em aparecida de goiânia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "niterói",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em niterói ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 42,
+            "value": "são joão de meriti",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em são joão de meriti ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 45,
+            "value": "campos dos goytacazes",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em campos dos goytacazes ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "santos",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em santos ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "betim",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em betim ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 45,
+            "value": "são josé do rio preto",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em são josé do rio preto ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "mauá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em mauá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "caxias do sul",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em caxias do sul ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "vila velha",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em vila velha ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "florianópolis",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em florianópolis ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "olinda",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em olinda ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "diadema",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em diadema ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "serra",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em serra ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "carapicuíba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em carapicuíba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "campina grande",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em campina grande ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "porto velho",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em porto velho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": "mogi das cruzes",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em mogi das cruzes ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "piracicaba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em piracicaba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "cariacica",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em cariacica ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "montes claros",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em montes claros ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "bauru",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em bauru ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "macapá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em macapá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "jundiaí",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em jundiaí ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "pelotas",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em pelotas ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": "itaquaquecetuba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em itaquaquecetuba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 42,
+            "value": "ribeirão das neves",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em ribeirão das neves ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "canoas",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em canoas ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "maringá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em maringá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "anápolis",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em anápolis ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "são vicente",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em são vicente ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "franca",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em franca ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "caucaia",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em caucaia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "vitória",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em vitória ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "foz do iguaçu",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em foz do iguaçu ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 44,
+            "value": "vitória da conquista",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em vitória da conquista ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "paulista",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em paulista ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "petrópolis",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em petrópolis ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "ponta grossa",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em ponta grossa ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "guarujá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em guarujá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "blumenau",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em blumenau ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "rio branco",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são os eventos em rio branco ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "janeiro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em janeiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "fevereiro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em fevereiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "março",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em março ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "abril",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em abril ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "maio",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em maio ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "junho",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em junho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "julho",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em julho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "agosto",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em agosto ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "setembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em setembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "outubro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em outubro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "novembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em novembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "dezembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em dezembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "18/10/2018",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em 18/10/2018 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 43,
+            "value": "quinta-feira",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em quinta-feira ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "22/05/2019",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em 22/05/2019 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 53,
+            "value": "28 de setembro de 2019",
+            "entity": "data"
+          }
+        ],
+        "text": "quais eventos vão acontecer em 28 de setembro de 2019 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 47,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 42,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que eventos falam de computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 49,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 52,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 52,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 61,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 45,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 42,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 49,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 56,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 48,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 48,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais os eventos em que se fala sobre computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [],
+        "text": "quais são as palestras?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "janeiro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em janeiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "fevereiro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em fevereiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "março",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em março ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "abril",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em abril ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "maio",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em maio ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "junho",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em junho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "julho",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em julho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "agosto",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em agosto ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "setembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em setembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "outubro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em outubro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "novembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em novembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "dezembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em dezembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "18/10/2018",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em 18/10/2018 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "quinta-feira",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em quinta-feira ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "22/05/2019",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em 22/05/2019 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 48,
+            "value": "28 de setembro de 2019",
+            "entity": "data"
+          }
+        ],
+        "text": "quais são as palestras em 28 de setembro de 2019 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 52,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 47,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 49,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 44,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 47,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 50,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 50,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 59,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 40,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 47,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 54,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 46,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 36,
+            "end": 46,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras que falam de computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "são paulo",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em são paulo ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "rio de janeiro",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em rio de janeiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "salvador",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em salvador ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "brasília",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em brasília ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "fortaleza",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em fortaleza ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "belo horizonte",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em belo horizonte ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "curitiba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em curitiba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "manaus",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em manaus ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "recife",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em recife ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "porto alegre",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em porto alegre ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "belém",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em belém ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "goiânia",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em goiânia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "guarulhos",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em guarulhos ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "campinas",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em campinas ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "são gonçalo",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em são gonçalo ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "são luís",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em são luís ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "maceió",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em maceió ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 41,
+            "value": "duque de caxias",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em duque de caxias ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "nova iguaçu",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em nova iguaçu ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 47,
+            "value": "são bernardo do campo",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em são bernardo do campo ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "teresina",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em teresina ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "natal",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em natal ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "campo grande",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em campo grande ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "osasco",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em osasco ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "joão pessoa",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em joão pessoa ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "santo andré",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em santo andré ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 49,
+            "value": "jaboatão dos guararapes",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em jaboatão dos guararapes ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "contagem",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em contagem ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "uberlândia",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em uberlândia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 45,
+            "value": "são josé dos campos",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em são josé dos campos ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 42,
+            "value": "feira de santana",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em feira de santana ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "sorocaba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em sorocaba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "ribeirão preto",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em ribeirão preto ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "cuiabá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em cuiabá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "aracaju",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em aracaju ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "juiz de fora",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em juiz de fora ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "londrina",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em londrina ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "joinville",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em joinville ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "ananindeua",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em ananindeua ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "belford roxo",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em belford roxo ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 46,
+            "value": "aparecida de goiânia",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em aparecida de goiânia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "niterói",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em niterói ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 44,
+            "value": "são joão de meriti",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em são joão de meriti ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 47,
+            "value": "campos dos goytacazes",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em campos dos goytacazes ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "santos",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em santos ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "betim",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em betim ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 47,
+            "value": "são josé do rio preto",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em são josé do rio preto ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "mauá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em mauá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 39,
+            "value": "caxias do sul",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em caxias do sul ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "vila velha",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em vila velha ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 39,
+            "value": "florianópolis",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em florianópolis ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "olinda",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em olinda ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "diadema",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em diadema ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "serra",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em serra ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "carapicuíba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em carapicuíba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "campina grande",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em campina grande ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "porto velho",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em porto velho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 41,
+            "value": "mogi das cruzes",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em mogi das cruzes ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "piracicaba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em piracicaba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "cariacica",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em cariacica ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 39,
+            "value": "montes claros",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em montes claros ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "bauru",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em bauru ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "macapá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em macapá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "jundiaí",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em jundiaí ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "pelotas",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em pelotas ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 41,
+            "value": "itaquaquecetuba",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em itaquaquecetuba ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 44,
+            "value": "ribeirão das neves",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em ribeirão das neves ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "canoas",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em canoas ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "maringá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em maringá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "anápolis",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em anápolis ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "são vicente",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em são vicente ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "franca",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em franca ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "caucaia",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em caucaia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "vitória",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em vitória ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 39,
+            "value": "foz do iguaçu",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em foz do iguaçu ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 46,
+            "value": "vitória da conquista",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em vitória da conquista ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "paulista",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em paulista ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "petrópolis",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em petrópolis ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "ponta grossa",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em ponta grossa ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "guarujá",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em guarujá ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "blumenau",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em blumenau ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "rio branco",
+            "entity": "local"
+          }
+        ],
+        "text": "quais são as palestras em rio branco ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "janeiro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em janeiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 42,
+            "value": "fevereiro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em fevereiro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "março",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em março ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "abril",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em abril ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "maio",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em maio ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "junho",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em junho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "julho",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em julho ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "agosto",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em agosto ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "setembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em setembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "outubro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em outubro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "novembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em novembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "dezembro",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em dezembro ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 43,
+            "value": "18/10/2018",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em 18/10/2018 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 45,
+            "value": "quinta-feira",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em quinta-feira ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 43,
+            "value": "22/05/2019",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em 22/05/2019 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 33,
+            "end": 55,
+            "value": "28 de setembro de 2019",
+            "entity": "data"
+          }
+        ],
+        "text": "quais palestras vão acontecer em 28 de setembro de 2019 ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 49,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 44,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "em que palestras falam de computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 51,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 54,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 54,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 63,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 46,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 44,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 51,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 58,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 50,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 40,
+            "end": 50,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais as palestras em que se fala sobre computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [],
+        "text": "quais são os palestrantes?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 52,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 47,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras sobre computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 49,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 44,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais são as palestras de computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 51,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 46,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 38,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 38,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam de computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 43,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 55,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 38,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 36,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 43,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 50,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam de computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 45,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 45,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 54,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 49,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes falam sobre computação ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 46,
+            "value": "programacao",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre programacao ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 49,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre acessibilidade ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 49,
+            "value": "banco de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre banco de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 58,
+            "value": "inteligencia artificial",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre inteligencia artificial ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 42,
+            "value": "chatbot",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre chatbot ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre devops ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 39,
+            "value": "java",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre java ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 46,
+            "value": "arquitetura",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre arquitetura ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 53,
+            "value": "mineração de dados",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre mineração de dados ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 45,
+            "value": "engenharia",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre engenharia ?"
+      },
+      {
+        "intent": "pedir_info_evento",
+        "entities": [
+          {
+            "start": 35,
+            "end": 45,
+            "value": "computação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "quais palestrantes que falam sobre computação ?"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 47,
+            "value": "segurança",
+            "entity": "assunto"
+          }
+        ],
+        "text": "eu quero saber mais sobre o evento de segurança"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "eu quero saber mais sobre o evento de devops"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 52,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "eu quero saber mais sobre o evento de acessibilidade"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 38,
+            "end": 49,
+            "value": "programação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "eu quero saber mais sobre o evento de programação"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "segurança",
+            "entity": "assunto"
+          }
+        ],
+        "text": "fale mais sobre o evento de segurança"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "fale mais sobre o evento de devops"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "fale mais sobre o evento de acessibilidade"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "programação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "fale mais sobre o evento de programação"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "segurança",
+            "entity": "assunto"
+          }
+        ],
+        "text": "conte mais sobre o evento de segurança"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "conte mais sobre o evento de devops"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "conte mais sobre o evento de acessibilidade"
+      },
+      {
+        "intent": "pedir_mais_info_evento",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "programação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "conte mais sobre o evento de programação"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 38,
+            "end": 47,
+            "value": "segurança",
+            "entity": "assunto"
+          }
+        ],
+        "text": "eu quero saber mais sobre a palestra de segurança"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "eu quero saber mais sobre a palestra de devops"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 38,
+            "end": 52,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "eu quero saber mais sobre a palestra de acessibilidade"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 38,
+            "end": 49,
+            "value": "programação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "eu quero saber mais sobre a palestra de programação"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "segurança",
+            "entity": "assunto"
+          }
+        ],
+        "text": "fale mais sobre a palestra de segurança"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "fale mais sobre a palestra de devops"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 28,
+            "end": 42,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "fale mais sobre a palestra de acessibilidade"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "programação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "fale mais sobre a palestra de programação"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "segurança",
+            "entity": "assunto"
+          }
+        ],
+        "text": "conte mais sobre a palestra de segurança"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "devops",
+            "entity": "assunto"
+          }
+        ],
+        "text": "conte mais sobre a palestra de devops"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 29,
+            "end": 43,
+            "value": "acessibilidade",
+            "entity": "assunto"
+          }
+        ],
+        "text": "conte mais sobre a palestra de acessibilidade"
+      },
+      {
+        "intent": "pedir_mais_info_palestra",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "programação",
+            "entity": "assunto"
+          }
+        ],
+        "text": "conte mais sobre a palestra de programação"
+      },
+      {
+        "intent": "saudar",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Oi",
+            "entity": "saudacao"
+          }
+        ],
+        "text": "Oi"
+      },
+      {
+        "intent": "saudar",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Oi",
+            "entity": "saudacao"
+          }
+        ],
+        "text": "Olá"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

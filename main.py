@@ -28,13 +28,15 @@ def responder(intencao, slots):
         return acao.buscar_info_palestrante(slots)
     if intencao == 'pedir_mais_info_evento':
         return acao.buscar_mais_info_evento(slots)
+    if intencao == 'pedir_mais_info_palestra':
+        return acao.buscar_mais_info_palestra(slots)
 
 def main():
     x = Config()
     trained_model_directory = x.config['trained_model_directory']
 
     # where `model_directory points to the folder the model is persisted in
-    interpreter = Interpreter.load(trained_model_directory )
+    interpreter = Interpreter.load(trained_model_directory)
 
     resultados = open('resultados.txt', 'a')
 
@@ -50,10 +52,10 @@ def main():
         "palestrante" : ""
     }
 
-    entrada = input("Como posso ajudar?")
+    entrada = input("Como posso ajudar?\n")
     while entrada != "SAIR":
         saida = interpreter.parse(entrada)
-        resultados.write('resultado: ' + str(saida))
+        resultados.write('resultado: ' + str(saida) + '\n')
         resultados.flush()
         
         print(saida)
@@ -63,7 +65,11 @@ def main():
             #global slots
             slots[hash_entity['entity']] = hash_entity['value']
         resposta, slots = responder(intencao, slots)
-        print(resposta)
+        if resposta == "":
+            print("Eu não tenho resposta para esse pedido.")
+        else:
+            print(resposta)
+        
         entrada = input()
 
 if __name__ == "__main__":

@@ -1,0 +1,595 @@
+{
+    "rasa_nlu_data": {
+      "regex_features": [],
+      "entity_synonyms": [],
+      "common_examples": [
+        {
+          "text": "quais são os palestrantes?",
+          "intent": "pedir_info_palestrante",
+          "entities": []
+        },
+        {
+          "text": "quais são as palestras sobre programacao ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 29, "end": 40, "value": "programacao", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre acessibilidade ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 29,
+              "end": 43,
+              "value": "acessibilidade",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre banco de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 29,
+              "end": 43,
+              "value": "banco de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre inteligencia artificial ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 29,
+              "end": 52,
+              "value": "inteligencia artificial",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre chatbot ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 29, "end": 36, "value": "chatbot", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre devops ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 29, "end": 35, "value": "devops", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre java ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 29, "end": 33, "value": "java", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre arquitetura ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 29, "end": 40, "value": "arquitetura", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre mineração de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 29,
+              "end": 47,
+              "value": "mineração de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre engenharia ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 29, "end": 39, "value": "engenharia", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras sobre computação ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 29, "end": 39, "value": "computação", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras de programacao ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 26, "end": 37, "value": "programacao", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras de acessibilidade ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 26,
+              "end": 40,
+              "value": "acessibilidade",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais são as palestras de banco de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 26,
+              "end": 40,
+              "value": "banco de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais são as palestras de inteligencia artificial ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 26,
+              "end": 49,
+              "value": "inteligencia artificial",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais são as palestras de chatbot ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 26, "end": 33, "value": "chatbot", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras de devops ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 26, "end": 32, "value": "devops", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras de java ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 26, "end": 30, "value": "java", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras de arquitetura ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 26, "end": 37, "value": "arquitetura", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras de mineração de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 26,
+              "end": 44,
+              "value": "mineração de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais são as palestras de engenharia ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 26, "end": 36, "value": "engenharia", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais são as palestras de computação ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 26, "end": 36, "value": "computação", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de programacao ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 28, "end": 39, "value": "programacao", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de acessibilidade ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 28,
+              "end": 42,
+              "value": "acessibilidade",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de banco de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 28,
+              "end": 42,
+              "value": "banco de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de inteligencia artificial ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 28,
+              "end": 51,
+              "value": "inteligencia artificial",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de chatbot ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 28, "end": 35, "value": "chatbot", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de devops ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 28, "end": 34, "value": "devops", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de java ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 28, "end": 32, "value": "java", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de arquitetura ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 28, "end": 39, "value": "arquitetura", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de mineração de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 28,
+              "end": 46,
+              "value": "mineração de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de engenharia ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 28, "end": 38, "value": "engenharia", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam de computação ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 28, "end": 38, "value": "computação", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de programacao ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 32, "end": 43, "value": "programacao", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de acessibilidade ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 32,
+              "end": 46,
+              "value": "acessibilidade",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de banco de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 32,
+              "end": 46,
+              "value": "banco de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de inteligencia artificial ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 32,
+              "end": 55,
+              "value": "inteligencia artificial",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de chatbot ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 32, "end": 39, "value": "chatbot", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de devops ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 32, "end": 38, "value": "devops", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de java ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 32, "end": 36, "value": "java", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de arquitetura ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 32, "end": 43, "value": "arquitetura", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de mineração de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 32,
+              "end": 50,
+              "value": "mineração de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de engenharia ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 32, "end": 42, "value": "engenharia", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam de computação ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 32, "end": 42, "value": "computação", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre programacao ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 31, "end": 42, "value": "programacao", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre acessibilidade ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 31,
+              "end": 45,
+              "value": "acessibilidade",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre banco de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 31,
+              "end": 45,
+              "value": "banco de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre inteligencia artificial ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 31,
+              "end": 54,
+              "value": "inteligencia artificial",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre chatbot ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 31, "end": 38, "value": "chatbot", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre devops ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 31, "end": 37, "value": "devops", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre java ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 31, "end": 35, "value": "java", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre arquitetura ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 31, "end": 42, "value": "arquitetura", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre mineração de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 31,
+              "end": 49,
+              "value": "mineração de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre engenharia ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 31, "end": 41, "value": "engenharia", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes falam sobre computação ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 31, "end": 41, "value": "computação", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre programacao ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 35, "end": 46, "value": "programacao", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre acessibilidade ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 35,
+              "end": 49,
+              "value": "acessibilidade",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre banco de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 35,
+              "end": 49,
+              "value": "banco de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre inteligencia artificial ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 35,
+              "end": 58,
+              "value": "inteligencia artificial",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre chatbot ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 35, "end": 42, "value": "chatbot", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre devops ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 35, "end": 41, "value": "devops", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre java ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 35, "end": 39, "value": "java", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre arquitetura ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 35, "end": 46, "value": "arquitetura", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre mineração de dados ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {
+              "start": 35,
+              "end": 53,
+              "value": "mineração de dados",
+              "entity": "assunto"
+            }
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre engenharia ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 35, "end": 45, "value": "engenharia", "entity": "assunto"}
+          ]
+        },
+        {
+          "text": "quais palestrantes que falam sobre computação ?",
+          "intent": "pedir_info_palestrante",
+          "entities": [
+            {"start": 35, "end": 45, "value": "computação", "entity": "assunto"}
+          ]
+        }
+      ]
+    }
+  }
