@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from rasa_nlu.model import Metadata, Interpreter
 from config import Config
 import sys
@@ -31,6 +34,9 @@ acao = Acao()
 
 bot = telepot.Bot(x.config['token'])
 
+def limpar_slots():
+    slots = {}   
+
 def responder(intencao, slots):
     if intencao == 'saudar':
         return acao.oferecer_ajuda(slots)
@@ -40,12 +46,9 @@ def responder(intencao, slots):
         return acao.buscar_info_palestra(slots)
     if intencao == 'pedir_info_palestrante':
         return acao.buscar_info_palestrante(slots)
-    if intencao == 'pedir_mais_info_evento':
-        return acao.buscar_mais_info_evento(slots)
-    if intencao == 'pedir_mais_info_palestra':
-        return acao.buscar_mais_info_palestra(slots)
 
 def handle(msg):
+    limpar_slots()
     content_type, chat_type, chat_id = telepot.glance(msg)
 
     if content_type == 'text':
@@ -54,7 +57,7 @@ def handle(msg):
         resultados.write('resultado: ' + str(saida) + '\n')
         resultados.flush()
         
-        print(saida)
+        print("saida: "+str(saida))
         intencao = saida['intent']['name']
         
         for hash_entity in saida['entities']:
@@ -63,16 +66,18 @@ def handle(msg):
         resposta, slots = responder(intencao, slots)
         print(slots)
         if resposta == "":
-            bot.sendMessage(chat_id, 'Eu não sei lidar com esse tipo de informação.')
+            bot.sendMessage(chat_id, 'Eu não sei responder a sua pergunta.')
         else:
             bot.sendMessage(chat_id, resposta)
+            print("resposta: "+str(resposta))
         #entrada = input()
     else:
         bot.sendMessage(chat_id, 'Eu não sei lidar com esse tipo de informação.')
+    
 
 def main():
     # Telegram
-    print("Como posso ajudar?\n")
+    print("Começou....\n")
     MessageLoop(bot, handle).run_as_thread()
 
     while 1:

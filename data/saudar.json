@@ -11,10 +11,10 @@
         ]
       },
       {
-        "text": "Olá",
+        "text": "Ola",
         "intent": "saudar",
         "entities":[
-        {"start":0, "end":2, "value":"Oi","entity":"saudacao"}          
+        {"start":0, "end":3, "value":"Ola","entity":"saudacao"}          
         ]
       }
       ]

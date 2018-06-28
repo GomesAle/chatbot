@@ -4,12 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "${file}"
+            "program": "${file}",
+            "pythonPath": "/usr/bin/python3"
         },
         {
             "name": "Python: Attach",
@@ -26,14 +26,16 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "pythonPath": "/usr/bin/python3"
         },
         {
             "name": "Python: Terminal (external)",
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "externalTerminal"
+            "console": "externalTerminal",
+            "pythonPath": "/usr/bin/python3"
         },
         {
             "name": "Python: Django",
