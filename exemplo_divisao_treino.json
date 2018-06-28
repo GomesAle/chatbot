@@ -1,0 +1,1 @@
+{"rasa_nlu_data": {"regex_features": [], "entity_synonyms": [], "common_examples": [{"text": "quais são os eventos de programação ?", "intent": "pedir_info_evento", "entities": [{"end": 35, "entity": "assunto", "start": 24, "value": "programação"}]}]}}

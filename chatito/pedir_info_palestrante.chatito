@@ -1,0 +1,145 @@
+%[pedir_info_palestrante]
+    quais são os palestrantes?
+    quais são as palestras sobre @[assunto] ?
+    quais são as palestras de @[assunto] ?
+    quais palestrantes falam de @[assunto] ?
+    quais palestrantes que falam de @[assunto] ?
+    quais palestrantes falam sobre @[assunto] ?
+    quais palestrantes que falam sobre @[assunto] ?
+    quais os palestrantes do @[evento] ?
+    quais os palestrantes do @[palestra] ?
+    quais são os palestrantes do @[evento] ?
+    quais são os palestrantes do @[palestra] ?
+
+@[evento]
+    DEFCON
+    SAP
+    XPTO
+    XYZ
+    RubyConf
+    PyLadies
+    TED
+    PyCon
+    GopherCon
+
+@[palestra]
+    como fazer testes
+    boas práticas de programação
+    chatbots
+    Técninas de pesquisa
+    Como as coisas funcionam?
+@[assunto]
+    programação
+    acessibilidade
+    banco de dados
+    inteligencia artificial
+    chatbot
+    devops
+    java
+    arquitetura
+    mineração de dados
+    engenharia
+    computação
+
+@[data]
+    janeiro
+    fevereiro
+    março
+    abril
+    maio
+    junho
+    julho
+    agosto
+    setembro
+    outubro
+    novembro
+    dezembro
+    18/10/2018
+    quinta-feira
+    22/05/2019
+    28 de setembro de 2019
+@[local]
+    são paulo
+    rio de janeiro
+    salvador
+    brasília
+    fortaleza
+    belo horizonte
+    curitiba
+    manaus
+    recife
+    porto alegre
+    belém
+    goiânia
+    guarulhos
+    campinas
+    são gonçalo
+    são luís
+    maceió
+    duque de caxias
+    nova iguaçu
+    são bernardo do campo
+    teresina
+    natal
+    campo grande
+    osasco
+    joão pessoa
+    santo andré
+    jaboatão dos guararapes
+    contagem
+    uberlândia
+    são josé dos campos
+    feira de santana
+    sorocaba
+    ribeirão preto
+    cuiabá
+    aracaju
+    juiz de fora
+    londrina
+    joinville
+    ananindeua
+    belford roxo
+    aparecida de goiânia
+    niterói
+    são joão de meriti
+    campos dos goytacazes
+    santos
+    betim
+    são josé do rio preto
+    mauá
+    caxias do sul
+    vila velha
+    florianópolis
+    olinda
+    diadema
+    serra
+    carapicuíba
+    campina grande
+    porto velho
+    mogi das cruzes
+    piracicaba
+    cariacica
+    montes claros
+    bauru
+    macapá
+    jundiaí
+    pelotas
+    itaquaquecetuba
+    ribeirão das neves
+    canoas
+    maringá
+    anápolis
+    são vicente
+    franca
+    caucaia
+    vitória
+    foz do iguaçú
+    vitória da conquista
+    paulista
+    petrópolis
+    ponta grossa
+    guarujá
+    blumenau
+    rio branco
+
+

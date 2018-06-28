@@ -1,0 +1,12 @@
+No projeto do chatbot, o Host-Bot é pensado em módulos onde cada um realizará sua função e passará a informação produzida para o módulo seguinte para assim realizar a tarefa desejada.
+
+Dados na forma de frases de exemplo devem ser coletados para serem usados tanto para treinamento quanto no teste e colocados no formato desejado para realizar o treinamento. Para realizar o treinamento usa-se um conjunto de dados composto de frases de exemplo, sendo que cada frase é associada a uma intenção e a uma lista de entidades presentes na frase.
+
+
+A partir dos dados é feito o treinamento que irá gerar o modelo usado para interpretar as mensagens passadas pelo usuário ao chatbot. O treinamento só precisa ser realizado novamente se o conjunto de dados de treinamanento for alterado.
+
+
+A interação entre o usuário e o chatbot começa pelo módulo de comunicação que funciona como interface para comunicação entre o usuário e o chatbot utilizando mensagens de texto. Esse módulo possui duas funcionalidades: passar as informações vindas do usuário para o módulo análise do bot e passar a resposta gerada pelo bot para o usuário.
+Depois disso vem o módulo de análise. Ele utiliza o modelo gerado pelo módulo de treinamento e a partir dele é feito o processamento da entrada passada pelo usuário. Cada frase passada a esse módulo é interpretada de forma a serem identificadas a intenção que o usuário tem com essa mensagem e as entidades relacionadas a ela.
+A partir das entidades e da intenção da mensagem são feitas consultas ao banco de dados para obter as informações desejadas pelo usuário. Os dados são armazenados em um banco de dados para serem usados nas consultas da geração de respostas.
+Após o processamento da entrada passada pelo usuário e feitas as consultas devidas para geração da resposta, é montada a mensagem que é então enviada para o usuário por meio do módulo de comunicação.

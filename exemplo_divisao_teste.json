@@ -1,0 +1,1 @@
+{"rasa_nlu_data": {"regex_features": [], "entity_synonyms": [], "common_examples": [{"text": "quais são os eventos em duque de caxias ?", "intent": "pedir_info_evento", "entities": [{"end": 39, "entity": "local", "start": 24, "value": "duque de caxias"}]}]}}

@@ -1,0 +1,2041 @@
+{
+ "rasa_nlu_data": {
+  "regex_features": [],
+  "entity_synonyms": [],
+  "common_examples": [
+   {
+    "text": "quais são os eventos de arquitetura ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "assunto",
+      "start": 24,
+      "value": "arquitetura"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em maio ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "data",
+      "start": 24,
+      "value": "maio"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em maio ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "data",
+      "start": 31,
+      "value": "maio"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de java ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "assunto",
+      "start": 24,
+      "value": "java"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos?",
+    "intent": "pedir_info_evento",
+    "entities": []
+   },
+   {
+    "text": "quais são os eventos que falam de arquitetura ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 45,
+      "entity": "assunto",
+      "start": 34,
+      "value": "arquitetura"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre arquitetura ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "assunto",
+      "start": 27,
+      "value": "arquitetura"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em macapá ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "macapá"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre java ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 43,
+      "entity": "assunto",
+      "start": 39,
+      "value": "java"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em campinas ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "campinas"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em são josé do rio preto ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 45,
+      "entity": "local",
+      "start": 24,
+      "value": "são josé do rio preto"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em natal ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "local",
+      "start": 24,
+      "value": "natal"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em são paulo ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "local",
+      "start": 24,
+      "value": "são paulo"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em osasco ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "osasco"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em julho ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "data",
+      "start": 31,
+      "value": "julho"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em fevereiro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "data",
+      "start": 24,
+      "value": "fevereiro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em feira de santana ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 40,
+      "entity": "local",
+      "start": 24,
+      "value": "feira de santana"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em carapicuíba ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "local",
+      "start": 24,
+      "value": "carapicuíba"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de computação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "assunto",
+      "start": 24,
+      "value": "computação"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de devops ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "assunto",
+      "start": 24,
+      "value": "devops"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de engenharia ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 44,
+      "entity": "assunto",
+      "start": 34,
+      "value": "engenharia"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre mineração de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 57,
+      "entity": "assunto",
+      "start": 39,
+      "value": "mineração de dados"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre chatbot ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "assunto",
+      "start": 27,
+      "value": "chatbot"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em campina grande ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "local",
+      "start": 24,
+      "value": "campina grande"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em campos dos goytacazes ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 45,
+      "entity": "local",
+      "start": 24,
+      "value": "campos dos goytacazes"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em santos ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "santos"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em 18/10/2018 ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 41,
+      "entity": "data",
+      "start": 31,
+      "value": "18/10/2018"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em abril ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "data",
+      "start": 24,
+      "value": "abril"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em vitória ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "vitória"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em são josé dos campos ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 43,
+      "entity": "local",
+      "start": 24,
+      "value": "são josé dos campos"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em montes claros ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 37,
+      "entity": "local",
+      "start": 24,
+      "value": "montes claros"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em ribeirão preto ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "local",
+      "start": 24,
+      "value": "ribeirão preto"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de programação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "assunto",
+      "start": 24,
+      "value": "programação"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre chatbot ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 46,
+      "entity": "assunto",
+      "start": 39,
+      "value": "chatbot"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre programação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "assunto",
+      "start": 27,
+      "value": "programação"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de devops ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 40,
+      "entity": "assunto",
+      "start": 34,
+      "value": "devops"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de programação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "assunto",
+      "start": 24,
+      "value": "programação"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em são bernardo do campo ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 45,
+      "entity": "local",
+      "start": 24,
+      "value": "são bernardo do campo"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em setembro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 39,
+      "entity": "data",
+      "start": 31,
+      "value": "setembro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em novembro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "data",
+      "start": 24,
+      "value": "novembro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em belford roxo ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "local",
+      "start": 24,
+      "value": "belford roxo"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em cuiabá ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "cuiabá"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em rio de janeiro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "local",
+      "start": 24,
+      "value": "rio de janeiro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em belém ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "local",
+      "start": 24,
+      "value": "belém"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em recife ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "recife"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em 28 de setembro de 2019 ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 46,
+      "entity": "data",
+      "start": 24,
+      "value": "28 de setembro de 2019"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em junho ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "data",
+      "start": 31,
+      "value": "junho"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em santo andré ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "local",
+      "start": 24,
+      "value": "santo andré"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em brasília ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "brasília"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre engenharia ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 49,
+      "entity": "assunto",
+      "start": 39,
+      "value": "engenharia"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de computação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 44,
+      "entity": "assunto",
+      "start": 34,
+      "value": "computação"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de mineração de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 42,
+      "entity": "assunto",
+      "start": 24,
+      "value": "mineração de dados"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de banco de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "assunto",
+      "start": 24,
+      "value": "banco de dados"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre acessibilidade ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 41,
+      "entity": "assunto",
+      "start": 27,
+      "value": "acessibilidade"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em fortaleza ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "local",
+      "start": 24,
+      "value": "fortaleza"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em ananindeua ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "local",
+      "start": 24,
+      "value": "ananindeua"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em goiânia ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "goiânia"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em quinta-feira ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "data",
+      "start": 24,
+      "value": "quinta-feira"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em 22/05/2019 ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 41,
+      "entity": "data",
+      "start": 31,
+      "value": "22/05/2019"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em curitiba ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "curitiba"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em joão pessoa ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "local",
+      "start": 24,
+      "value": "joão pessoa"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em guarujá ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "guarujá"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em ribeirão das neves ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 42,
+      "entity": "local",
+      "start": 24,
+      "value": "ribeirão das neves"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre mineração de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 45,
+      "entity": "assunto",
+      "start": 27,
+      "value": "mineração de dados"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de acessibilidade ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "assunto",
+      "start": 24,
+      "value": "acessibilidade"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de mineração de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 42,
+      "entity": "assunto",
+      "start": 24,
+      "value": "mineração de dados"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre acessibilidade ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 53,
+      "entity": "assunto",
+      "start": 39,
+      "value": "acessibilidade"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de java ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "assunto",
+      "start": 34,
+      "value": "java"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em blumenau ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "blumenau"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em março ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "data",
+      "start": 31,
+      "value": "março"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em julho ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "data",
+      "start": 24,
+      "value": "julho"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em cariacica ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "local",
+      "start": 24,
+      "value": "cariacica"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em são gonçalo ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "local",
+      "start": 24,
+      "value": "são gonçalo"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em diadema ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "diadema"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em itaquaquecetuba ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 39,
+      "entity": "local",
+      "start": 24,
+      "value": "itaquaquecetuba"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em maringá ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "maringá"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em outubro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "data",
+      "start": 31,
+      "value": "outubro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em 22/05/2019 ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "data",
+      "start": 24,
+      "value": "22/05/2019"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em mauá ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "local",
+      "start": 24,
+      "value": "mauá"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em porto alegre ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "local",
+      "start": 24,
+      "value": "porto alegre"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre inteligencia artificial ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 50,
+      "entity": "assunto",
+      "start": 27,
+      "value": "inteligencia artificial"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre devops ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 45,
+      "entity": "assunto",
+      "start": 39,
+      "value": "devops"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de programação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 45,
+      "entity": "assunto",
+      "start": 34,
+      "value": "programação"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de devops ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "assunto",
+      "start": 24,
+      "value": "devops"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de computação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "assunto",
+      "start": 24,
+      "value": "computação"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em salvador ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "salvador"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em betim ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "local",
+      "start": 24,
+      "value": "betim"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em teresina ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "teresina"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em campo grande ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "local",
+      "start": 24,
+      "value": "campo grande"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em setembro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "data",
+      "start": 24,
+      "value": "setembro"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em novembro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 39,
+      "entity": "data",
+      "start": 31,
+      "value": "novembro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em juiz de fora ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "local",
+      "start": 24,
+      "value": "juiz de fora"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em vila velha ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "local",
+      "start": 24,
+      "value": "vila velha"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em uberlândia ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "local",
+      "start": 24,
+      "value": "uberlândia"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de engenharia ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "assunto",
+      "start": 24,
+      "value": "engenharia"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre programação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 50,
+      "entity": "assunto",
+      "start": 39,
+      "value": "programação"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre computação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 37,
+      "entity": "assunto",
+      "start": 27,
+      "value": "computação"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de chatbot ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "assunto",
+      "start": 24,
+      "value": "chatbot"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de inteligencia artificial ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 57,
+      "entity": "assunto",
+      "start": 34,
+      "value": "inteligencia artificial"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em vitória da conquista ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 44,
+      "entity": "local",
+      "start": 24,
+      "value": "vitória da conquista"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em porto velho ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "local",
+      "start": 24,
+      "value": "porto velho"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em 18/10/2018 ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "data",
+      "start": 24,
+      "value": "18/10/2018"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em fevereiro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 40,
+      "entity": "data",
+      "start": 31,
+      "value": "fevereiro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em anápolis ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "anápolis"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em aparecida de goiânia ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 44,
+      "entity": "local",
+      "start": 24,
+      "value": "aparecida de goiânia"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em rio branco ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "local",
+      "start": 24,
+      "value": "rio branco"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em foz do iguaçú ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 37,
+      "entity": "local",
+      "start": 24,
+      "value": "foz do iguaçú"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em mogi das cruzes ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 39,
+      "entity": "local",
+      "start": 24,
+      "value": "mogi das cruzes"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em agosto ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "data",
+      "start": 24,
+      "value": "agosto"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em abril ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "data",
+      "start": 31,
+      "value": "abril"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em sorocaba ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "sorocaba"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre banco de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 53,
+      "entity": "assunto",
+      "start": 39,
+      "value": "banco de dados"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre java ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "assunto",
+      "start": 27,
+      "value": "java"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de mineração de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 52,
+      "entity": "assunto",
+      "start": 34,
+      "value": "mineração de dados"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de banco de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "assunto",
+      "start": 24,
+      "value": "banco de dados"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de java ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 28,
+      "entity": "assunto",
+      "start": 24,
+      "value": "java"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em piracicaba ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "local",
+      "start": 24,
+      "value": "piracicaba"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em são luís ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "são luís"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em belo horizonte ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "local",
+      "start": 24,
+      "value": "belo horizonte"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em contagem ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "contagem"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em dezembro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 39,
+      "entity": "data",
+      "start": 31,
+      "value": "dezembro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em março ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "data",
+      "start": 24,
+      "value": "março"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em petrópolis ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "local",
+      "start": 24,
+      "value": "petrópolis"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em niterói ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "niterói"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em maceió ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "maceió"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de inteligencia artificial ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 47,
+      "entity": "assunto",
+      "start": 24,
+      "value": "inteligencia artificial"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de inteligencia artificial ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 47,
+      "entity": "assunto",
+      "start": 24,
+      "value": "inteligencia artificial"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre arquitetura ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 50,
+      "entity": "assunto",
+      "start": 39,
+      "value": "arquitetura"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de chatbot ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 41,
+      "entity": "assunto",
+      "start": 34,
+      "value": "chatbot"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre engenharia ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 37,
+      "entity": "assunto",
+      "start": 27,
+      "value": "engenharia"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em nova iguaçu ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "local",
+      "start": 24,
+      "value": "nova iguaçu"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em bauru ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "local",
+      "start": 24,
+      "value": "bauru"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em 28 de setembro de 2019 ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 53,
+      "entity": "data",
+      "start": 31,
+      "value": "28 de setembro de 2019"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em junho ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "data",
+      "start": 24,
+      "value": "junho"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em jaboatão dos guararapes ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 47,
+      "entity": "local",
+      "start": 24,
+      "value": "jaboatão dos guararapes"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em londrina ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "londrina"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em pelotas ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "pelotas"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em joinville ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "local",
+      "start": 24,
+      "value": "joinville"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em olinda ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "olinda"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em quinta-feira ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 43,
+      "entity": "data",
+      "start": 31,
+      "value": "quinta-feira"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em outubro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "data",
+      "start": 24,
+      "value": "outubro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em canoas ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "canoas"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de chatbot ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "assunto",
+      "start": 24,
+      "value": "chatbot"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de engenharia ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 34,
+      "entity": "assunto",
+      "start": 24,
+      "value": "engenharia"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre computação ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 49,
+      "entity": "assunto",
+      "start": 39,
+      "value": "computação"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre devops ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "assunto",
+      "start": 27,
+      "value": "devops"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de banco de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 48,
+      "entity": "assunto",
+      "start": 34,
+      "value": "banco de dados"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em manaus ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "manaus"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em aracaju ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "aracaju"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em caxias do sul ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 37,
+      "entity": "local",
+      "start": 24,
+      "value": "caxias do sul"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em florianópolis ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 37,
+      "entity": "local",
+      "start": 24,
+      "value": "florianópolis"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em agosto ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 37,
+      "entity": "data",
+      "start": 31,
+      "value": "agosto"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em dezembro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "data",
+      "start": 24,
+      "value": "dezembro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em franca ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 30,
+      "entity": "local",
+      "start": 24,
+      "value": "franca"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em guarulhos ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 33,
+      "entity": "local",
+      "start": 24,
+      "value": "guarulhos"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em são joão de meriti ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 42,
+      "entity": "local",
+      "start": 24,
+      "value": "são joão de meriti"
+     }
+    ]
+   },
+   {
+    "text": "quais  os eventos em que se fala sobre inteligencia artificial ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 62,
+      "entity": "assunto",
+      "start": 39,
+      "value": "inteligencia artificial"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos de acessibilidade ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "assunto",
+      "start": 24,
+      "value": "acessibilidade"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos que falam de acessibilidade ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 48,
+      "entity": "assunto",
+      "start": 34,
+      "value": "acessibilidade"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos sobre banco de dados ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 41,
+      "entity": "assunto",
+      "start": 27,
+      "value": "banco de dados"
+     }
+    ]
+   },
+   {
+    "text": "em que eventos falam de arquitetura ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "assunto",
+      "start": 24,
+      "value": "arquitetura"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em jundiaí ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "jundiaí"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em caucaia ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "local",
+      "start": 24,
+      "value": "caucaia"
+     }
+    ]
+   },
+   {
+    "text": "quais eventos vão acontecer em janeiro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 38,
+      "entity": "data",
+      "start": 31,
+      "value": "janeiro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em janeiro ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 31,
+      "entity": "data",
+      "start": 24,
+      "value": "janeiro"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em são vicente ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 35,
+      "entity": "local",
+      "start": 24,
+      "value": "são vicente"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em ponta grossa ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 36,
+      "entity": "local",
+      "start": 24,
+      "value": "ponta grossa"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em serra ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 29,
+      "entity": "local",
+      "start": 24,
+      "value": "serra"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em paulista ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 32,
+      "entity": "local",
+      "start": 24,
+      "value": "paulista"
+     }
+    ]
+   },
+   {
+    "text": "quais são os eventos em duque de caxias ?",
+    "intent": "pedir_info_evento",
+    "entities": [
+     {
+      "end": 39,
+      "entity": "local",
+      "start": 24,
+      "value": "duque de caxias"
+     }
+    ]
+   }
+  ]
+ }
+}

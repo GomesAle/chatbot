@@ -1,0 +1,1 @@
+{"rasa_nlu_data": {"regex_features": [], "entity_synonyms": [], "common_examples": [{"text": "Ola", "intent": "saudar", "entities": [{"start": 0, "end": 3, "value": "Ola", "entity": "saudacao"}]}]}}
